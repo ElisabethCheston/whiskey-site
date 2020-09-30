@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.alert-container {
+
+}
+
+.callout-container {
+    height: 100vh;
+    background:url("../images/2glasseswhiskey.jpg")no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-color: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.quotes-container {
+}
+.features-container {
+}
+
+<!--jumbotron-->
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border-radius: .3rem;
+
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #9a8585;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
