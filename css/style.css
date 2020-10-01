@@ -5,12 +5,24 @@ body {
 
 /* Containers*/
 
-.alert-container {
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+.site-wid-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
 }
 
 .callout-container {
     height: 100vh;
-    background:url("../images/2glasseswhiskey.jpg")no-repeat bottom right fixed;
+
+    background:url("../images/2glasseswhiskey.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,25 +43,6 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.quotes-container {}
-.features-container {}
-
-<!--block dividers-->
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444444;
-}
-
-.block-divider--orange {
-    background-color: #f05f40;
-}
-
-.block-divider--short {
-    width: 35px;
-}
 
 /*Navbar*/
 
@@ -57,9 +50,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
 }
 
 .navbar {
@@ -79,7 +72,6 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
-
 
 
 /*jumbotron*/
@@ -105,6 +97,24 @@ body {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+
+/*block dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--short {
+    width: 35px;
 }
 
 /*Buttons*/
