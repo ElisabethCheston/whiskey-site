@@ -52,11 +52,10 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*Content container*/
 
 .content-container {
     padding-top: 75px;
-    padding-bottom: 75px
+    padding-bottom: 75px;
 }
 
 /*Navbar*/
@@ -126,6 +125,9 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header {
+    margin-bottom: 25px;
+}
 /*block dividers*/
 
 .block-divider {
@@ -161,7 +163,7 @@ body {
 .btn--red {
     color: white;
     background-color: #f05f40;
-    border-color: #f05f40
+    border-color: #f05f40;
 }
 
 .btn--red:hover,
@@ -174,7 +176,7 @@ body {
 }
 
 .feature {
-    text-align: center
+    text-align: center;
     margin-bottom: 40px;
 }
 
